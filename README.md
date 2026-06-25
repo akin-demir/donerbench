@@ -16,9 +16,10 @@
 ## Demo
 
 <p align="center">
-  <video src="https://github.com/akin-demir/donerbench/raw/main/assets/demo.mp4" controls muted width="720">
-    Your browser can't play this inline — <a href="https://github.com/akin-demir/donerbench/raw/main/assets/demo.mp4">watch/download the demo</a>.
-  </video>
+  <img src="assets/demo.gif" width="720" alt="DönerBench demo — LLMs slicing a döner side by side" />
+</p>
+<p align="center">
+  <sub>▶ Full-quality video: <a href="https://github.com/akin-demir/donerbench/raw/main/assets/demo.mp4">assets/demo.mp4</a></sub>
 </p>
 
 ---
