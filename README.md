@@ -15,13 +15,10 @@
 
 ## Demo
 
-<!-- Replace the placeholder below with your own recording: drop the file at assets/demo.mp4
-     (on GitHub you can also drag-and-drop a video into this section to get a hosted URL). -->
 <p align="center">
-  <a href="assets/demo.mp4">
-    <img src="frontend/public/logo.png" width="120" alt="Watch the demo" /><br/>
-    ▶ <strong>Watch the demo</strong> — placeholder, add your recording at <code>assets/demo.mp4</code>
-  </a>
+  <video src="https://github.com/akin-demir/donerbench/raw/main/assets/demo.mp4" controls muted width="720">
+    Your browser can't play this inline — <a href="https://github.com/akin-demir/donerbench/raw/main/assets/demo.mp4">watch/download the demo</a>.
+  </video>
 </p>
 
 ---
