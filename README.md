@@ -215,14 +215,3 @@ assets/           media (demo video)
 - `POST /api/benchmark/run` — synchronous run (mostly for tests / profile mode)
 
 The benchmark request accepts selected `agent_ids`, `seed`, `slice_attempts`, `ticks_per_second`, and `environment` config. For real model agents prefer the **job** endpoints — model calls run in a background worker and the frontend polls for progress.
-
-## Adding a non-LLM agent
-
-Subclass `Agent` and implement `act`:
-
-```python
-def act(self, observation: Observation) -> AgentAction:
-    ...
-```
-
-Register it in [`registry.py`](backend/donerbench/agents/registry.py); enabled agents show up automatically in `GET /api/agents` and the UI.

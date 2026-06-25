@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Activity, Pause, Play, TimerReset } from 'lucide-react';
+import { Pause, Play, TimerReset } from 'lucide-react';
 import { AgentSelectionPanel } from './components/AgentSelectionPanel';
 import { BenchmarkConfigPanel } from './components/BenchmarkConfigPanel';
 import { LeaderboardTable } from './components/LeaderboardTable';
@@ -39,13 +39,11 @@ export function App() {
     <main className="app-shell">
       <section className="control-rail">
         <div className="brand-block">
-          <div className="brand-mark">
-            <Activity size={22} />
-          </div>
-          <div>
-            <h1>DönerBench</h1>
-            <p>AI slicing benchmark</p>
-          </div>
+          <img
+            className="brand-logo"
+            src="/logo.png"
+            alt="DönerBench — The Perfect Slice Benchmark"
+          />
         </div>
         <AgentSelectionPanel />
         <BenchmarkConfigPanel />
